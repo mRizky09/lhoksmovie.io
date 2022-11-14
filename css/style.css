@@ -490,7 +490,7 @@ nav-link .bx{
 }
 /*responsive*/
 
-@media (max-width: 1170px){
+@media (max-width: 1070px){
     .navbar {
         bottom: 0;
         left: 0;
