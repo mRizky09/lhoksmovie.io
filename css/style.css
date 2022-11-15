@@ -720,8 +720,18 @@ nav-link .bx{
         grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
         gap: 1rem;
     }
+    .main{
+    transform: translate(6%, 40%);
+    width: 70%;
+}
 }
 /*for small devices */
+@media (max-width: 388px){
+    .main{
+    transform: translate(6%, 40%);
+    width: 70%;
+}
+}
 @media (max-width: 370px){
     .home{
         min-height: 300px;
@@ -747,5 +757,9 @@ nav-link .bx{
     }
     .download-links {
         grid-template-columns: 1fr;
+    }
+    .main{
+        ransform: translate(6%, 40%);
+    width: 70%;
     }
 }
