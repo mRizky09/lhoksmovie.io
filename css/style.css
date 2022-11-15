@@ -488,9 +488,69 @@ nav-link .bx{
     background: var(--hover-color);
 
 }
+.main{
+    position: absolute;
+    border-radius: 5px;
+    left: 15%;
+    transform: translate(30%, 40%);
+    width: 50%;
+    background: rgba(243, 238, 233, 0.496);
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0,.1);
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+   bottom: 100px;
+}
+.main h2{
+    margin: 0 40px;
+    padding: 10px;
+    color: ;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+.main .border{
+    width: 70px;
+    height: 3px;
+    background: rgba(64, 43, 20, 0.7);
+    margin: 1px auto;
+}
+.main input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.main textarea{
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+.main input,
+.main textarea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.main textarea{
+    bottom: 20px;
+    
+}
+.main input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: var(--container-color);
+    color: var(--main-color);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.main input:hover{
+    background: var();
+}
 /*responsive*/
 
-@media (max-width: 1070px){
+@media (max-width: 1080px){
     .navbar {
         bottom: 0;
         left: 0;
@@ -512,6 +572,9 @@ nav-link .bx{
     }
     .copyright{
         margin-bottom: 4rem;
+    }
+    .main{
+        transform: translate(30%, 0%);
     }
 }
 
@@ -596,6 +659,11 @@ nav-link .bx{
     .play-movie{
         bottom: 10rem;
         right: 2rem;
+    }
+    .main{
+       transform: translate(-4%, 0%);
+         width: 75%;
+       
     }
 }
 @media (max-width: 514px){
