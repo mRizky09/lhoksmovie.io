@@ -573,7 +573,7 @@ nav-link .bx{
         margin-bottom: 4rem;
     }
     .main{
-        transform: translate(30%, 0%);
+       
     }
 }
 
@@ -660,8 +660,7 @@ nav-link .bx{
         right: 2rem;
     }
     .main{
-       transform: translate(-4%, 10%);
-         width: 75%;
+      left: 9%;
        
     }
 }
