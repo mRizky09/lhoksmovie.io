@@ -689,8 +689,9 @@ nav-link .bx{
     .cast-title{
        font-size: 0.9rem; 
     }
+    
 }
-@media (max-width: 408px){
+@media (max-width: 500px 408px){
     *{
         scroll-padding-top: 5rem;
     }
