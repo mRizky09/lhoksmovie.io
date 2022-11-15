@@ -758,8 +758,5 @@ nav-link .bx{
     .download-links {
         grid-template-columns: 1fr;
     }
-    .main{
-        ransform: translate(6%, 40%);
-    width: 70%;
-    }
+    
 }
