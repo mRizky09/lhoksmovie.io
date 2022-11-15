@@ -489,7 +489,7 @@ nav-link .bx{
 
 }
 .main{
-    position: absolute;
+    position: relative;
     border-radius: 5px;
     left: 15%;
     transform: translate(30%, 40%);
